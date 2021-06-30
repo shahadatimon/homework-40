@@ -1,0 +1,248 @@
+@media(max-width:1200px){
+    .contact-form input {
+        width: 85%;
+    }
+    .contact-form textarea {
+        padding: 10px 0px;
+    }
+}
+@media (max-width:1160px) {
+    .fixwith{
+        max-width: 100%;
+    }
+    .header-logo {
+        width: 27%;
+        padding-left: 14px;
+    }
+    .header-button {
+        width: 13%;
+        padding-right: 10px;
+    }
+    .service-box {
+        width: 45%;
+        margin-left: 15px;
+    }
+    .member {
+        width: 45%;      
+        margin-left: 29px;
+        margin-bottom: 15px;
+    }
+    .what-item-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .what-item-left p.p-1 {
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .img-left {
+        width: 38%;
+    }
+    .what-item-left h2 {
+        text-align: center;
+    }
+    .application-item {
+        width: 100%;
+    }
+    .contact-map {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+@media (max-width:910px){
+    .email-content p {
+        font-size: 17px;
+    }
+    .email-content h2 {
+        font-size: 42px;
+    }
+    .form-1 input:nth-child(1) {
+        width: 255px;
+    }
+    .form-1 input:nth-child(2) {
+        width: 150px;
+    }
+}
+@media (max-width:900px){
+    .primary-manu ul li a {
+        padding: 0 16px;
+        font-size: 18px;
+    }
+    .logo img {
+        margin-right:0px;
+    }
+    .header-logo {
+        width: 30%;
+        padding-left: 14px;
+    }
+    .header-manu {
+        width: 50%;
+    }
+    .header-baner {
+        padding: 100px 0; 
+    }
+    .mid-content h1 {
+        font-size: 45px;
+    }
+    .mid-content h3 {
+        font-size: 25px;
+    }
+    .header-video {
+        width: 100%;
+    }
+    .header-content {
+        width: 90%;
+        text-align: center;
+        margin-right: 43px;
+    }
+}
+@media (max-width:840px){
+    .member {
+        margin-left: 5px;
+    }
+    .team-members.clear {
+        margin-left: 53px;
+    }
+}
+@media (max-width:765px){
+    .service-box {
+        width: 100%;
+    }
+}
+@media (max-width:730px){
+    .header-content h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .header-content p {
+        font-size: 16px;
+    }
+    .teeam-text h2 {
+        font-size: 27PX;
+    }
+}
+@media (max-width:815px){
+    .email-content h2 {
+        font-size: 30px;
+    }
+    .form-1 input:nth-child(1) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-1 input:nth-child(2) {
+        width: 200px;
+    }
+    .email-section {
+        padding: 88px;
+    }
+}
+@media (max-width:830px){
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-button {
+        width: 30%;
+    }
+    .header-section a {
+        display: inline-block;
+    }
+    .primary-manu ul {
+        text-align: center;
+    }
+    .header-manu {
+        width: 65%;
+    }
+}
+@media (max-width:615px){
+    .primary-manu ul li a {
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .header-section a {
+        font-size: 14px;
+    }
+    .header-content {
+        margin-right: 25px;
+    }
+    .section-title h1 {
+        font-size: 28px;
+    }
+    .section-title h4 {
+        font-size: 19px;
+    }
+    .member {
+        width: 100%;
+       margin: 0;
+    }
+    .team-members.clear {
+        margin-left: 0;
+    }
+    .member {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+@media (max-width:550px){
+    .header-content h2 {
+        font-size: 22px;
+        color: red;
+    }
+    .email-content h2 {
+        font-size: 20px;
+    }
+    .email-content p {
+        font-size: 13px;
+    }
+    .img-left {
+        width: 100%;
+    }
+    .content {
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .header-manu {
+        width: 100%;
+    }
+    .header-button {
+        width: 100%;
+        text-align: center;
+    }
+    .mid-content h3 {
+        margin-top: 20px;
+    }
+
+}
+@media(max-width:460px){
+    .teeam-text {
+        padding: 0 30px;
+    }
+    .teeam-text h2 {
+        font-size: 18PX;
+    }
+    .email-section {
+        padding: 49px;
+    }
+    
+}
+@media (max-width:400px){
+    .header-content h2 {
+        font-size: 18px;
+    }
+    .header-content p {
+        font-size: 12px;
+    }
+}
+@media (max-width:350px){
+    .s-icon {
+        height: 150px;
+    }
+}

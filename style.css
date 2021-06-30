@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+.fixwith{
+    max-width: 1150px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.p-bc{
+    background-color: #ddd;
+}
+/* header-part*/
+body,h1,h2,h3,h4,h5,h6,a,span,p{
+    font-family: 'Roboto', sans-serif;
+}
+.header-section {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(218, 216, 216);
+    margin-top: -1px;
+    padding: 6px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+.header-section a{
+    color:  #010101;
+}
+.header-logo{
+width: 30%;
+}
+.logo img{
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.logo span{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+
+.header-manu{
+width: 55%;
+}
+.header-button{
+width: 15%;
+text-align: right;
+}
+.header-btn{
+    border: 2px solid rgb(37, 146, 248);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+   margin-top: 8px;
+   color: rgb(37, 146, 248);
+   transition: .5s;
+}
+.header-btn:hover{
+    background-color: rgb(27, 128, 245);
+    border: 2px solid rgb(248, 37, 37);
+    color: white;
+}
+.primary-manu{
+
+}
+.primary-manu ul{
+
+}
+.primary-manu ul li{
+display: inline-block;
+}
+.primary-manu ul li a{
+display: block;
+padding: 0 20px;
+font-size: 20px;
+line-height: 55px;
+}
+.primary-manu ul li a:hover{
+
+}
+
+
+/* dropdown manu*/
+.primary-manu ul li{
+position: relative;
+}
+.primary-manu ul li ul{
+position: absolute;
+left: 0;
+top: 100%;
+width: 150px;
+background-color: #fff;
+opacity: 0;
+visibility: hidden;
+transition: .5s;
+transform: scaley(0);
+transform-origin: top center;
+z-index: 2;
+}
+.primary-manu ul li:hover ul{
+opacity: 1;
+visibility: visible;
+transform: scaley(1);
+}
+/* baner-part */
+.header-baner {
+    background: url(https://i.ibb.co/j6hLBCx/mbr-4.jpg) no-repeat center;
+    padding: 150px 0;
+    background-size:cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    margin-top: 66px;
+} 
+.header-baner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.4);
+    z-index: -1;
+}
+.mid-content{
+
+}
+.mid-content h3{
+font-size: 30px;
+}
+.mid-content h1{
+font-size: 60px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+.default-btn{
+color: rgb(83, 83, 83);
+display: inline-block;
+background-color: #fff;
+padding: 15px 20px;
+margin-left: 20px;
+border-radius: 10px;
+transition: .5s;
+font-weight: 600;
+}
+.default-btn:hover{
+    background-color: rgb(37, 146, 248);
+    color: white;
+
+}
+
+/* baner-buttom */
+.baner-video{
+margin-top: 80px;
+}
+.header-video{
+width: 48%;
+}
+.header-content{
+width: 48%;
+
+}
+.header-content h2{
+font-size: 40px;
+font-weight: 400;
+margin-bottom: 20px;
+}
+.header-content p{
+color: rgb(154, 150, 184);
+font-size: 20px;
+line-height: 1.8em;
+}
+/* service-section */
+.service-section{
+background-color: rgb(248, 245, 245);
+padding: 100px 0;
+
+}
+
+.section-title h1{
+font-size: 60px;
+margin-top: 30px;
+
+}
+.service-title{
+    margin-top: 120px;
+}
+.section-title h4{
+font-size: 30px;
+margin-top: 60px;
+color: rgb(165, 164, 164);
+
+}
+/* service-section box */
+.service-items{
+margin-top: 100px;
+}
+.service-box{
+    width: 30%;
+    margin-right: 2%;
+    box-shadow: 2px 2px 10px 4px rgba(37, 168, 243, 0.1);
+    margin-bottom: 30px;
+    padding: 60px;
+    box-sizing: border-box;
+}
+.s-icon {
+    width: 69px;
+    float: left;
+    height: 133px;
+    font-size: 30px;
+    color: royalblue;
+}
+.s-content{
+
+}
+.s-content h3{
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 20px;
+}
+.s-content p {
+    color: rgb(199, 197, 196);
+    font-size: 20px;
+}
+/* team-section */
+.team-section{
+    padding: 50px 0;
+}
+.teeam-text h2{
+    font-size: 45PX;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.member{
+    width: 24%;
+    margin-right: 10px;
+    box-shadow: 2px 2px 6px 2px rgba(32, 170, 235, 0.4);
+    text-align: center;
+    padding: 30px 0;
+    border-radius: 10px 10px 0 0;
+}
+.member img{
+    width: 250px;
+}
+.member h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.member p{
+    color: gray;
+}
+/* email-section */
+.email-section{
+    padding: 150px;
+    margin:auto;
+    text-align: center;
+    background-color: #e9e3e3;
+}
+.email-content p{
+   font-size: 25px;
+   color: gray;
+   margin-bottom: 20px;
+}
+.email-content h2{
+   font-size: 50px;
+   font-weight: 500;
+   margin-bottom: 30px;
+}
+.form-1 input:nth-child(1){
+   width: 350px;
+   padding: 15px;
+   font-size: 20px;
+   border-radius: 5px;
+   margin-right: 20px;
+   border: 1px solid blue;
+}
+.form-1 input:nth-child(2){
+   width: 200px;
+   padding: 15px;
+   font-size: 20px;
+   border-radius: 5px;
+   color: white;
+   background-color: olive;
+   transition: .3s;
+   border: 1px solid black;
+}
+.form-1 input:nth-child(2):hover{
+    background-color: #fff;
+    color: black;
+}
+/* what-new-section */
+.what-new-section{
+    padding: 120px 0;
+    background-color: rgb(243, 240, 240);
+}
+.what-item-left{
+    width: 50%;
+}
+.what-item-left h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.img-part {
+    box-shadow: 2px 2px 6px 2px rgba(32, 170, 235, 0.4);
+    margin-right: 30px;
+}
+.img-left{
+    width:48%;
+    margin-top: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.content{
+    width:50% ; 
+    background-color: rgb(253, 251, 251);
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+.content h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.content p{
+    color: rgb(100, 98, 98);
+}
+.what-item-left p.p-1{
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 500px;
+    color: rgb(99, 96, 96);
+    line-height: 30px;
+    
+}
+/* applocation-section */
+.application-section{
+    background-color:#dddddd;
+    padding: 80px 0;
+}
+.application-content h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+.application-content h5{
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.application-item{
+    width: 32%;
+    margin-right: 15px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.item-content p{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing:0px;
+    box-shadow:2px 2px 6px 2px rgba(129, 193, 245, 0.534);
+    padding: 40px;
+    position: relative;
+}
+.item-content p::before{
+    content: "\f10d";
+    font-family:"Font Awesome 5 Free";
+    font-weight: 700;
+    font-size: 55px;
+    position: absolute;
+    opacity: .1;
+    top: 45px;
+    left: 22px;
+}
+.item-content{
+    position: relative;
+    background-color: #fff;
+}
+.item-content::after{
+    content: "";
+    position: absolute;
+    bottom: -10;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 20px 0 20px;
+    border-color: #ffffff transparent transparent transparent;
+}
+.item-member{
+    width: 200px;
+    margin:40px auto;
+}
+.img img{
+    width: 80px;
+    border-radius: 50%;
+    
+}
+.img-con{
+    margin: 15px 15px;
+}
+.img-con h5{
+    font-size: 16px;
+}
+.img-con p{
+    color: gray;
+}
+/* contact-section */
+.contact-section{
+    padding: 50px 0;
+    
+}
+.contact-content{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.contact-content h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.contact-content p{
+    color: rgb(92, 91, 91);
+}
+.contact-map{
+    width: 50%;
+}
+.contact-form{
+    width: 50%;
+}
+.contact-form input{
+    width: 100%;
+    padding: 15px;
+   font-size: 20px;
+   border-radius: 5px;
+   color: rgb(66, 64, 64);
+   border: 1px solid rgb(169, 172, 4);
+   margin-bottom: 20px;
+}
+.contact-form textarea{
+    border-radius: 5px;
+    border: 1px solid rgb(169, 172, 4);
+   margin-bottom: 20px;
+   font-size: 30px;
+   padding: 10px 30px;
+}
+.contact-form .bottom-s{
+    width: 300px;
+    margin-left: 150px;
+}
+/* futter */
+.futter-content h4{
+    font-weight: 500;
+    margin-bottom: 50px;
+}
